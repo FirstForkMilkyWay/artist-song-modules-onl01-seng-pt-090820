@@ -25,7 +25,7 @@ class Artist
 
 
 
-  def dd_song(song)
+  def add_song(song)
     @songs << song
     song.artist = self unless song.artist
   end
